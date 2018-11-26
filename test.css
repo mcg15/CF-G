@@ -3,7 +3,8 @@ h1 {
   font-size: 175px;
   font-family: 'Gamja Flower', cursive;
   margin: 10px 0 0 0;
-  color: #000000;
+  color: rgb(12, 47, 8)
+  text-shadow: 2px 2px #ff0000;;
 }
 body {
   text-align: center;
@@ -11,7 +12,7 @@ body {
   /* opacity: 0.3; */
   background-size: cover;
   background-position: center;
-  color: white;
+  color: rgb(29, 181, 12);
   font-family: helvetica;
   padding: 60px;
   }
@@ -70,6 +71,7 @@ margin: 0;
 }
 
 .info {
+display: none;
 width: auto;
 
 }
