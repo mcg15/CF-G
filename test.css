@@ -3,18 +3,16 @@ h1 {
   font-size: 175px;
   font-family: 'Gamja Flower', cursive;
   margin: 10px 0 0 0;
-  color: rgb(12, 47, 8)
-  text-shadow: 2px 2px #ff0000;;
+  color: black
 }
 body {
   text-align: center;
   background: url("./images/pots1.jpg");
-  /* opacity: 0.3; */
   background-size: cover;
   background-position: center;
-  color: rgb(29, 181, 12);
+  color: black;
   font-family: helvetica;
-  padding: 60px;
+  /* padding: 60px; */
   }
 
 h3 {
@@ -33,6 +31,32 @@ img {
 
  }
 
+ .nav {
+         background: rgba(198, 223, 188, 0.6);
+         overflow: hidden;
+         display: block;
+         font-family: 'Gamja Flower'
+       }
+
+ .nav a {
+   padding: 10px 40px 10px 40px;
+   text-decoration: none;
+   font-family: 'Gamja Flower'
+   color: black;
+   font-size: 25px;
+   line-height: 48px;
+   -webkit-transition: 0.3s ease-in-out;
+   -moz-transition: 0.3s ease-in-out;
+ }
+
+   .nav a:hover {
+                 background:rgb(120, 169, 99);
+   }
+
+   li {
+       display: inline;
+     }
+
 /* p {
 opacity: 0;
 }
@@ -49,9 +73,9 @@ opacity: 1;
 .herb {
 color: rgba(255,255,255,1);
 /* background: black; */
-background: linear-gradient(bottom, rgba(59, 35, 11,1), rgba(59, 35, 11,.4));
-background: -webkit-linear-gradient(bottom, rgba(59, 35, 11,1), rgba(59, 35, 11,.4));
-background: -moz-linear-gradient(bottom, rgba(37, 104, 37,1), rgba(037, 104, 37,.4));
+background: linear-gradient(bottom, rgba(1, 7, 3, 0.5), rgba(1, 7, 3, 0.2));
+background: -webkit-linear-gradient(bottom, rgba(1, 7, 3, 0.5), rgba(1, 7, 3, 0.2));
+background: -moz-linear-gradient(bottom, rgba(1, 7, 3, 0.5), rgba(1, 7, 3, 0.2));
 display: flex;
 flex-direction: row;
 padding: 10px;
@@ -71,7 +95,25 @@ margin: 0;
 }
 
 .info {
-display: none;
+opacity:0;
+width: auto;
+
+}
+
+.info_hover{
+opacity:1;
+width: auto;
+
+}
+
+.emojis {
+opacity:1;
+width: auto;
+flex-grow: 2;
+}
+
+.emojis_hover{
+opacity:0;
 width: auto;
 
 }

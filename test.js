@@ -1,16 +1,16 @@
-$('div').hover(function() {
-  $(this).find('.info').css("display", "block");
+$('.info').hover(function() {
+  // $(this).find('.info').css("display", "block");
+     $(this).toggleClass('info_hover');
 });
 
-// $('div').hover(function() {
-//   $(this).find('.info').css("display", "none");
+
+// $('.emojis').hover(function() {
+//   // $(this).find('.info').css("display", "block");
+//      $('.info').toggleClass('info_hover');
 // });
 
-// ('.info').hover(
-//   function() {
-//     $(this).show();
-//   }
-//   function() {
-//     $(this).hide();
-//   }
-// )
+
+// $('.emojis').hover(function() {
+//   // $(this).find('.info').css("display", "block");
+//      $(this).toggleClass('emojis_hover');
+// });
