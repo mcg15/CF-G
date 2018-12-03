@@ -49,6 +49,10 @@ img {
 
  }
 
+ p {
+   padding: 40px;
+ }
+
  .nav {
    background: rgba(198, 223, 188, 0.6);
    padding: 10px 40px 10px 40px;
